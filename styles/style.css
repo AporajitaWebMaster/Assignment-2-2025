@@ -136,7 +136,7 @@ header{
 .left-right-flex{
     display: flex;
     margin: 0 auto;
-    
+    justify-content: space-between;
      gap: 280px;
 
 }
@@ -255,7 +255,7 @@ header{
 }
 
  .right-part{
-       justify-content: center;
+       justify-content: end;
       padding: 50px;
        gap: 10px;
       
