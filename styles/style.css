@@ -16,7 +16,7 @@ body{
 
 header{
   background-color: black;
-  padding: 40px;
+ padding: 30px;
   
 }
 
@@ -99,11 +99,11 @@ header{
     
 }
 .left-first h1{
-    font-size: 72px;
+    font-size: 60px;
     color: #FFFFFF;
 }
 .left-first p{
-    font-size: 15px;
+    font-size: 12px;
     color: #FFFFFF;
     margin-top: 10px;
 }
@@ -137,7 +137,9 @@ header{
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-     gap: 280px;
+    /*
+     gap: 280px;*/
+     gap: 400px;
 
 }
 
@@ -280,6 +282,7 @@ header{
     width: 100%;
     height: auto;
     display: block;
+    justify-content: end;
 
 }
 .Button-1{
@@ -419,5 +422,72 @@ header{
      margin-top: -50px;
      margin-right: -10px;*/
 }
+}
 
+/**main part*/
+.black{
+  background-color: black;
+}
+.main-1{
+    text-align: center;
+    color: #FFFFFF;
+}
+.main-1 h1{
+    font-size: 35px;
+}
+
+.main-1 p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #FFFFFF80;
+}
+
+.Movement-pera p{
+   
+    color: #FFFFFF80;
+    margin-top: 10px;
+}
+
+.Movement-pera h1{
+    color: #FFFFFF;
+    margin-top: 15px;
+   
+}
+.main-2{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.movement-img img{
+    border-radius: 50%;
+}
+
+@media screen and (min-width:577px) and (max-width:992px){
+        .main-2{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    
+}
+}
+@media screen and (max-width:576px){
+
+     .main-2{
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
+    
+}
 }
