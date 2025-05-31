@@ -14,8 +14,13 @@ body{
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
+}
+
+.my-shape{
+           font-family: "Miniver", cursive;
+  font-weight: 400;
+  font-style: normal;
   
- 
 }
 
 header{
@@ -106,16 +111,6 @@ header{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 }
 
 @media screen  and ( min-width:577px) and (max-width:992px){
@@ -142,14 +137,6 @@ header{
      gap: 150px;
    
 }
-
-
-
-
-
-
-
-
 
 }
 
@@ -201,10 +188,7 @@ header{
     max-width: 1200px;
     padding: 0 20px;
     
-    /*
-     gap: 280px;
-     gap: 400px;*/
-
+ 
 }
 
 
@@ -364,11 +348,7 @@ header{
     background-color: #3030308A;
     left: 50%;
     transform: translateX(280%);
-    /*
-    margin-left: -100px;
-
-     margin-right:-190px;*/
-
+   
 }
 
 
@@ -471,7 +451,6 @@ header{
     transform: translateX(20%);
 
 }
-/*
 .Button-2{
     position:absolute;
    display: flex;
@@ -481,27 +460,11 @@ header{
     border: 1px solid white;
     background-color: #3030308A;
      margin-top: -180px;
-     margin-right: -400px;
-   
-}*/
-.Button-2{
-    position:absolute;
-   display: flex;
-   color: #FFFFFF;
-    padding: 15px;
-    border-radius: 15px;
-    border: 1px solid white;
-    background-color: #3030308A;
-     margin-top: -180px;
-     /*
-      margin-left: 120px;
-   */
+    
     right: 50%;
     transform: translateX(5%);
     
-    /*
-     margin-top: -50px;
-     margin-right: -10px;*/
+  
 }
 }
 
@@ -812,9 +775,27 @@ header{
 .main-4 p {
     text-align: start;
     color:#FFFFFF80;
+    font-size: 20px;
+}
+
+@media screen and (max-width:576px) {
+
+
+.main-4 h1 {
+    text-align: start;
+    margin-top: 50px;
 }
 
 
+
+    .main-4 p {
+      
+    text-align:start;
+    color:#FFFFFF80;
+    font-size: 12px;
+
+}
+}
 
  .main-part-5{
     margin: 0 auto;
@@ -1060,5 +1041,580 @@ width: 240px;
 margin-left: -10px;
 
 
- }
+ }}
+ 
+ 
+ 
+
+.main-6-part{
+    color: #FFFFFF;
+   justify-items: center;
+   padding: 5px;
+   margin: 0 auto;
+  width: 78%;
+
+
+    
+}
+
+
+.BMI {
+    text-align: start;
+    margin-top: 50px;
+}
+
+.main-6-part p {
+    text-align: start;
+    color:#FFFFFF80;
+    font-size: 20px;
+    
+}
+
+
+@media screen and (max-width:576px) {
+
+    
+.main-6-part p {
+    text-align: start;
+    color:#FFFFFF80;
+    font-size: 12px;
+}
+
+}
+
+
+
+.main-7-flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    margin-top: 50px;
+    gap: 150px;
+  background-color: #222222;
+ 
+    
+}
+
+.left-7-part h1{
+    color: #FFFFFF;
+    margin-top: 50px;
+    
+}
+
+.box-part {
+  display: grid;
+ grid-template-columns:repeat(2,1fr);
+margin-top: 80px;
+ max-width: 500px;
+margin: auto;
+padding: 25px;
+}
+
+.box{
+  background-color: black;
+ color: white;
+  text-align: center;
+  font-size: 17px;
+ 
+  padding: 15px;
+  border: 1px solid white;
+}
+
+.box-3{
+    background-color: black;
+ color: #FFFFFF80;
+  text-align: center;
+  font-size: 12px;
+ 
+  padding: 15px;
+  border: 1px solid white;
+}
+
+
+.right-7-part h1{
+    color: #FFFFFF;
+    margin-top: 50px;
+    
+}
+
+.right-7-part p{
+    color: #fffff156;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+
+.button-1-flex{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+
+}
+
+
+
+
+.button-2-flex{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+
+}
+
+.height{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF1A;
+    color:#FFFFFF99;
+}
+
+.weight{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF1A;
+    color:#FFFFFF99;
+}
+
+.age{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF99;
+}
+.Sex{
+    width: 180px;
+     padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF99;
+}
+
+.Sex-1{
+    margin-top: 15px;
+    width: 370px;
+     padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF99;
+}
+
+.Cal-btn{
+    background-color: #E6533C;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: -160px;
+}
+
+@media screen and (max-width:576px) {
+    
+
+.main-7-flex{
+     flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    width: auto;
+    margin-top: 50px;
+    gap: 30px;
+    padding: 20px;
+  background-color: #222222;
+  
+    
+}
+
+.button-1-flex{
+    justify-content: center;
+}
+
+
+.button-2-flex{
+    justify-content: center;
+}
+    
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    
+.main-7-flex{
+     flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    width: auto;
+    margin-top: 50px;
+    gap: 30px;
+    padding: 20px;
+  background-color: #222222;
+ 
+}
+
+.button-1-flex{
+    justify-content: center;
+}
+
+
+.button-2-flex{
+    justify-content: center;
+}
+}
+
+.main-8{
+    margin-top: 30px;
+    justify-content: center;
+    color: white;
+}
+.main-8-p{
+    margin-top: 10px;
+    color:  #FFFFFF99;
+    font-size: 15px;
+}
+
+.background-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+       margin: 0 auto;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 100px;
+    margin-inline: auto;
+    margin-top: 30px;
+   
+}
+
+.back-h1 {
+display: flex;
+ align-items: flex-end;
+ justify-content: flex-start;
+ padding: 10px;
+ margin-top: 150px;
+ 
+}
+
+
+.back-p{
+  display: flex;
+ align-items: flex-end;
+ justify-content: flex-start;
+ padding: 10px;
+ 
+}
+
+
+.background-1{
+    background-image: url("images/trainer1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    width: 380px;
+    border-radius: 10px;
+   padding: 7px;
+    
+}
+
+
+
+.background-2{
+    background-image: url("images/trainer2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.background-3{
+    background-image: url("images/trainer3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.background-4{
+    background-image: url("images/trainer4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.background-5{
+    background-image: url("images/trainer5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.background-6{
+    background-image: url("images/trainer6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    width: 380px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+
+@media screen and (min-width:577px)  and (max-width:992px){
+
+
+
+.background-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+        gap: 7px;
+       margin: 0 auto;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 70px;
+    margin-inline: auto;
+    margin-top: 30px;
+   
+
+}
+
+
+.back-h1 {
+display: flex;
+ align-items: flex-end;
+ justify-content: flex-start;
+ padding: 10px;
+ margin-top: 150px;
+ font-size: 14px;
+ 
+}
+
+
+.back-p{
+  display: flex;
+ align-items: flex-end;
+ justify-content: flex-start;
+ padding: 10px;
+ font-size: 12px;
+ 
+}
+
+
+
+
+
+
+
+    
+.background-1{
+    background-image: url("images/trainer1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width: 220px;
+    border-radius: 10px;
+   padding: 7px;
+    
+}
+
+
+
+.background-2{
+    background-image: url("images/trainer2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width: 220px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.background-3{
+    background-image: url("images/trainer3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width: 220px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.background-4{
+    background-image: url("images/trainer4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width: 220px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.background-5{
+    background-image: url("images/trainer5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width: 220px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.background-6{
+    background-image: url("images/trainer6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+    width: 220px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+
+}
+
+@media screen  and (max-width:576px){
+    
+.background-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+       margin: 0 auto;
+    justify-content: center;
+    color: #FFFFFF;
+  
+    margin-inline: auto;
+    margin-top: 20px;
+   
+
+}
+
+}
+
+
+.footer-h1{
+    color: #E6533C;
+    font-size: 50px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+
+}
+.footer-right-flex{
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+    
+}
+
+
+
+.footer-right-flex h1{
+    font-size: 20px;
+}
+
+.footer-right-flex ul{
+    color: #FFFFFF80;
+    margin-top: 15px;
+}
+
+
+.footer-left{
+    margin-top: 40px;
+}
+.footer-left p{
+ color:#FFFFFF80;
+ margin-top: 15px;
+}
+
+.footer-line{
+   width: 50%;
+   color: #FFFFFF;
+   background-color:black;
+}
+
+.footer{
+
+    background-color:  #222222; 
+    padding: 20px;
+  
+}
+
+.hr{
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 10px;
+}
+.p-tag{
+    text-align: center;
+   
+    margin-top: 10px;
+    color:#FFFFFF80;
+}
+
+@media screen and (min-width:577px) and (max-width:992px){
+
+    
+.footer-flex{
+   
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+
+}
+
+.footer-right-flex{
+    text-align: center;
+    justify-content: center;
+}
+}
+
+@media screen and (max-width:576px) {
+
+   
+.footer-flex{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+
+}
+
+   
+.footer-right-flex{
+     flex-direction: column;
+    gap: 60px;
+    margin-top: 50px;
+    
+} 
 }
